@@ -1,0 +1,56 @@
+🔹 Project Overview
+
+This project implements a Linear Regression Machine Learning model to predict customer yearly spending in an E-commerce platform.
+The model analyzes customer behavioral features such as session time, app usage, website usage, and membership duration to estimate the "Yearly Amount Spent".
+The goal is to understand which factors influence customer spending and build a predictive regression model.
+
+
+🔹 Machine Learning Model
+Model Used:
+Linear Regression (from Scikit-learn)
+Workflow:
+Load dataset using Pandas
+Perform Exploratory Data Analysis
+Select feature variables (X)
+Define target variable (y)
+Split dataset into training and testing sets (70/30 split)
+Train Linear Regression model
+Make predictions
+Evaluate model performance
+
+
+🔹 Exploratory Data Analysis (EDA)
+Performed:
+Joint plots
+Pair plots
+Regression plots
+Correlation understanding
+EDA helped identify:
+Strong relationship between Length of Membership and spending
+Time on App has more impact than Time on Website
+
+🔹 Technologies Used
+Python
+Pandas
+Seaborn
+Matplotlib
+Scikit-learn
+Google Colab
+
+🔹 Dataset Information
+Dataset Name: Ecommerce Customers Dataset
+Total Records: 500
+Features Used:
+Avg. Session Length
+Time on App
+Time on Website
+Length of Membership
+Target Variable:
+Yearly Amount Spent
+
+🔹 Learning Outcomes
+Understanding Linear Regression
+Feature importance interpretation
+Model evaluation metrics
+Real-world customer data analysis
+Data visualization using Seaborn
